@@ -6,6 +6,7 @@ export const Home = () => {
     <div>
       <nav>Navbar</nav>
       <main></main>
+      <Outlet />
     </div>
   );
 };
