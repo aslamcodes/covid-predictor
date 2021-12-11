@@ -1,12 +1,10 @@
 import React from "react";
-import { Outlet } from "react-router";
+import { Layout } from "../common/components/Layout";
 
 export const Home = () => {
   return (
-    <div>
-      <nav>Navbar</nav>
+    <Layout>
       <main></main>
-      <Outlet />
-    </div>
+    </Layout>
   );
 };
