@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+src/data/covid-data
+src/data/covid-data-sample
+src/data/node_modules
+
